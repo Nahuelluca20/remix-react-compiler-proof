@@ -22,9 +22,11 @@
     "@remix-run/cloudflare": "^2.8.1",
     "@remix-run/cloudflare-pages": "^2.8.1",
     "@remix-run/react": "^2.8.1",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-53bb89e-20240515",
     "isbot": "^3.6.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-babel": "^1.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240222.0",
