@@ -22,6 +22,7 @@
     "@remix-run/cloudflare": "^2.8.1",
     "@remix-run/cloudflare-pages": "^2.8.1",
     "@remix-run/react": "^2.8.1",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-c23de8d-20240515",
     "eslint-plugin-react-compiler": "^0.0.0-experimental-53bb89e-20240515",
     "isbot": "^3.6.5",
     "react": "^18.2.0",

@@ -39,6 +39,10 @@ export function loader({ context }: LoaderFunctionArgs) {
 					title: 'Overview',
 					to: '/',
 				},
+				{
+					title: 'Proof',
+					to: '/proof',
+				},
 			],
 		},
 		{

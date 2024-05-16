@@ -11,6 +11,7 @@ const ReactCompilerConfig = {
   compilationMode: "annotation",
 };
 
+
 export default defineConfig({
 	plugins: [
 		remixCloudflareDevProxy({ getLoadContext }),
@@ -19,7 +20,7 @@ export default defineConfig({
 		babel({
       filter: /\.[jt]sx?$/,
       babelConfig: {
-        presets: ["@babel/preset-typescript"], // if you use TypeScript
+        presets: ["@babel/preset-typescript"],
         plugins: [
           ["babel-plugin-react-compiler", ReactCompilerConfig],
         ],
