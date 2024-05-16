@@ -7,6 +7,10 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import { getLoadContext } from './load-context';
 import babel from "vite-plugin-babel";
 
+const ReactCompilerConfig = {
+  compilationMode: "annotation",
+};
+
 export default defineConfig({
 	plugins: [
 		remixCloudflareDevProxy({ getLoadContext }),
